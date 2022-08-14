@@ -1,0 +1,444 @@
+html,
+body {
+    width: 100%;
+    overflow-x: hidden;
+    background: var(--color-five);
+}
+
+header {
+    width: 100%;
+    height: 500px;
+    background: var(--color-one);
+}
+
+.content {
+    max-width: 1000px;
+    min-width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+nav {
+    width: 100%;
+    height: 125px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand {
+    font-size: 24px;
+    color: var(--color-three);
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+
+}
+
+nav ul li {
+    list-style: none;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+nav ul li a {
+    color: var(--color-three);
+    text-decoration: none;
+
+}
+
+nav ul li a:hover {
+    color: var(--color-four);
+    /* background-color: var(--color-four); */
+}
+
+nav ul button {
+    border: 1px solid var(--color-three);
+    background: transparent;
+    padding: 8px 40px;
+    margin-left: 30px;
+    cursor: pointer;
+    color: var(--color-four);
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+nav ul button:hover {
+    transition: background, color 0.6s;
+    background: var(--color-two);
+    color: #fff;
+
+}
+
+.content .header-block {
+    max-width: 1000px;
+    min-width: 300px;
+    height: 450px;
+    background: var(--color-two);
+    border-radius: 8px;
+    box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    position: relative;
+    z-index: 10;
+    padding: 10px;
+}
+
+.header-block img {
+    width: 60%;
+    position: absolute;
+    right: 2%;
+    bottom: 2%;
+}
+
+.header-block .text {
+    position: absolute;
+    bottom: 30%;
+    left: 15%;
+}
+
+.header-block .text h2 {
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: right;
+    transform: translateX(-20px);
+    transition: transform 0.5s;
+}
+
+.header-block .text p {
+    max-width: 280px;
+    color: #fff;
+    text-align: right;
+    transform: translateX(-20px);
+    transition: transform 0.4s;
+
+}
+
+/* catalogo */
+
+section .catalog {
+    width: 100vw;
+    padding: 100px;
+    
+}
+
+section .filter-card {
+
+    width: 980px;
+    height: 150px;
+    background: var(--color-one);
+    border-radius: 8px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.search-input {
+    width: 700px;
+    height: 50px;
+    border: none;
+    border-radius: 4px 0px 0px 4px;
+    text-indent: 10px;
+}
+
+.search-button {
+    width: 150px;
+    height: 50px;
+    border-radius: 0px 4px 4px 0px;
+    border: none;
+    background: var(--color-four);
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: 0.2s ease;
+}
+
+.search-button:hover {
+    background: #ededed;
+    color: var(--color-four);
+}
+
+.title-wrapper-catalog {
+    margin-top: 200px;
+    padding-bottom: 20px;
+    color: var(--color-four);
+
+}
+
+section .card-wrapper {
+    max-width: 1000px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    grid-gap: 30px;
+    padding-top: 50px;
+}
+
+section .card-item {
+    height: 400px;
+    background: var(--color-three);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+.card-content {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.card-item img {
+    width: 85%;
+}
+
+.card-item h3 {
+    width: 90%;
+
+}
+
+.card-item p {
+    width: 90%;
+    /* font-style: italic; */
+    color: #000000ed;
+}
+
+.card-item button {
+    width: 90%;
+    padding: 15px 0;
+    border: none;
+    background: var(--color-four);
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin-bottom: 10px;
+
+
+}
+
+.card-item button:hover {
+    background: #dedede;
+    color: var(--color-four);
+
+}
+
+/* about */
+
+.about {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 10px;
+
+}
+
+.about-content {
+    max-width: 1000px;
+    min-width: 300px;
+    height: 600px;
+    background: #0000001b;
+    margin: 0 auto;
+    border-radius: 8px;
+    z-index: 10;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left {
+    width: 25%;
+    min-width: 300px;
+    height: 100%;
+    background: #ed3e3ea1;
+    border-radius: 8px;
+
+}
+
+.right {
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-top: 10%;
+
+}
+
+
+.right h3 {
+    text-align: right;
+    width: 85%;
+    margin-bottom: 20px;
+    font-size: 25px;
+
+}
+
+.right p {
+    max-width: 85%;
+    font-size: 1.4em;
+    letter-spacing: 2px;
+    text-align: right;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+/* footer */
+
+footer {
+    width: 100%;
+    height: 250px;
+}
+
+footer .main {
+    width: 100%;
+    height: 200px;
+    background: var(--color-two);
+    padding: 20px 10px;
+}
+
+.footer-links {
+    max-width: 1000px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.footer-company,
+.footer-rental,
+.footer-contact,
+.footer-social {
+    color: #fff;
+    height: 100%;
+    min-height: 100px;
+
+
+}
+
+.footer-links h4 {
+    margin-bottom: 10px;
+    font-size: 1.4em;
+
+}
+
+.footer-links h6 {
+    margin-bottom: 8px;
+    font-size: 1.2em;
+}
+
+.main .footer-social img {
+    width: 32px;
+    height: 32px;
+
+}
+
+
+
+.last {
+    width: 100%;
+    height: 30%;
+    background: var(--color-two);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* responsivo */
+
+@media (max-width: 576px) {
+    nav ul li {
+        display: none;
+    }
+
+    .header-block img {
+        width: 70%;
+        position: absolute;
+        right: 16%;
+        top: 30%;
+    }
+
+    .header-block .text  {
+        position: absolute;
+        bottom: 10%;
+        text-align: center;
+        
+    }
+    
+
+    section .filter-card {
+        width: 390px;
+        padding: 0px 10px;
+    }
+
+    .search-input {
+        max-width: 700px;
+        min-width: 240px;
+    }
+
+    .search-button {
+        max-width: 150px;
+        min-width: 80px;
+    }
+
+    .about{
+        margin-top: 100px;
+        
+    }
+
+    .title-wrapper-about{
+        margin-bottom: 20px;
+
+    }
+
+    .about-content{
+        flex-direction: column;
+        height: 100%;
+    }
+    .left{
+        display: none;
+    }
+    .right{
+        width: 90%;
+    }
+    .right p{
+        width: 100%;
+        margin: 0px;
+        text-align: left;
+    }
+    footer{
+        height: 100%;
+    }
+
+    footer .main{
+        height: 100%;
+    }
+
+    .footer-links{
+        flex-direction: column;
+        padding-left: 10%;
+    }
+}
