@@ -224,7 +224,7 @@ section .card-item {
 
 .card-item button {
     width: 90%;
-    padding: 15px 0;
+    padding: 15px ;
     border: none;
     background: var(--color-four);
     border-radius: 4px;
@@ -435,6 +435,7 @@ footer .main {
     }
     footer{
         height: 100%;
+        padding: 8px;
     }
 
     footer .main{
