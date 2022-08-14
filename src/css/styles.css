@@ -209,21 +209,28 @@ section .card-item {
 
 .card-item img {
     width: 85%;
+    
 }
 
 .card-item h3 {
-    width: 90%;
+    /* width: 90%; */
+    max-width: 200px;
+    text-align: center;
 
 }
 
 .card-item p {
-    width: 90%;
+    /* width: 90%; */
     /* font-style: italic; */
+    max-width: 250px;
     color: #000000ed;
+    text-align: center;
 }
 
 .card-item button {
-    width: 90%;
+    /* width: 90%; */
+    max-width: 120px;
+    height: 50px;
     padding: 15px ;
     border: none;
     background: var(--color-four);
@@ -435,7 +442,7 @@ footer .main {
     }
     footer{
         height: 100%;
-        padding: 8px;
+        padding: 18px;
     }
 
     footer .main{
