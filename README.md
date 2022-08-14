@@ -1,6 +1,6 @@
-#### Projeto vitine de loja Online
+#### Projeto vitrine de loja Online
 #### Esse desafio elaborei para minha papelaria online
-#### Desde de 2019 trabalho com loja online, atualmente vendedo pela plataforma shopee e buscando aprender sempre mais consegui colocar uma vitrine oara minha papelaria, um sonho realizado.
+#### Desde de 2019 trabalho com loja online, atualmente vendendo pela plataforma shopee e buscando aprender sempre mais consegui colocar uma vitrine para minha papelaria, um sonho realizado.
 #### Estou muito satisfeita com o resulatado desse projeto.
 
 <a href="#" target="_blank" > Papelaria Caprichos</a>
