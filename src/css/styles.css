@@ -76,6 +76,10 @@ nav ul button:hover {
     color: #fff;
 
 }
+nav ul button a{
+    color: var(--color-three);
+    text-decoration: none;
+}
 
 .content .header-block {
     max-width: 1000px;
