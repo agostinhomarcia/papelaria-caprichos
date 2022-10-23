@@ -79,7 +79,7 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) an
 # Clone this project
 $ git clone https://github.com/agostinhomarcia/papelaria-caprichos.git
 # Access
-$ cd movies
+$ cd 
 # The server will initialize in the <http://localhost:3000>
 ```
 
