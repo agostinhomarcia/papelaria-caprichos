@@ -88,7 +88,7 @@ $ cd papelaria-caprichos
 ## :memo: License ##
 
 
-This project is under the [MIT license](./LICENSE).
+This project is under the [MIT license](./License).
 
 Made with love by [Márcia Agostinho](https://github.com/agostinhomarcia) 🚀.
 
