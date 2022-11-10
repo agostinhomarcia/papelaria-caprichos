@@ -1,3 +1,5 @@
+
+
 <p align="center">
    <img src="https://media.giphy.com/media/YOekg3fa7sgRKfklge/giphy.gif" alt="Papelaria" width="250"/>
 </p>
@@ -36,7 +38,7 @@
   <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
   <a href="#memo-license">License</a> &#xa0; | &#xa0;
   <a href="https://github.com/agostinhomarcia" target="_blank">Author</a>&#xa0; | &#xa0
-  <a href="https://portifolio-marcia.vercel.app/" target="_blank" rel="noopener noreferrer">Projeto</a>
+  <a href="https://agostinhomarcia.github.io/papelaria-caprichos/" target="_blank" rel="noopener noreferrer">Projeto</a>
 </p>
 
 <br>
@@ -53,7 +55,7 @@
 
 ## :sparkles: Features ##
 
-:heavy_check_mark: Add Shopping Cart;\
+:heavy_check_mark: Feature 1;\
 :heavy_check_mark: Feature 2;\
 :heavy_check_mark: Feature 3;
 
@@ -78,7 +80,7 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) an
 $ git clone https://github.com/agostinhomarcia/papelaria-caprichos.git
 # Access
 $ cd papelaria-caprichos
-# The server will initialize in the <http://127.0.0.1:5500/>
+# The server will initialize in the <http://127.0.0.1:5500/index.html>
 ```
 
 
@@ -86,7 +88,7 @@ $ cd papelaria-caprichos
 ## :memo: License ##
 
 
-This project is under the [MIT license](./License).
+This project is under the [MIT license](./LICENSE).
 
 Made with love by [Márcia Agostinho](https://github.com/agostinhomarcia) 🚀.
 
