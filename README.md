@@ -20,7 +20,7 @@
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/agostinhomarcia/papelaria-caprichos?color=FF6347">
 
- <img alt="License" src="https://img.shields.io/github/license/agostinhomarcia/papelaria-caprichos?color=FF6347">
+   <img alt="License" src="https://img.shields.io/github/license/agostinhomarcia/papelaria-caprichos?color=FF6347">
 
    <img alt="Github issues" src="https://img.shields.io/github/issues/agostinhomarcia/papelaria-caprichos?color=FF6347" /> 
 
